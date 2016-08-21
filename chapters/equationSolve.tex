@@ -47,6 +47,19 @@ For the equation $2x+4y=5$, input [2 4 -5] as shown below and press  `Enter'.
 Enter the coefficients of second equation(Enter a2.x+b2.y=c2 as [a2 b2 -c2]:[2 4 -5]
 \end{lstlisting}
 \item
+THe following prompt appears on the console on executing code in listing \ref{quadEqn}
+\begin{lstlisting}[numbers=none]
+Solving Quadratic Equations   
+ 
+ ----------------------------   
+ 
+     
+Enter the coefficients(Eg: To solve c+(b*x)+a(x^2)=0, enter [c b a]):
+\end{lstlisting}
+
+For the equation $3+5x+6x^2=0$, input [3 5 6] and press `Enter'.
+\item
+
 The results and the errors in the program are displayed in the console window.
 \end{enumerate}
 
@@ -56,6 +69,9 @@ The results and the errors in the program are displayed in the console window.
 
 \lstinputlisting[caption={Code to solve linear equation in two variables},label={linEqn}]{./scilabCode/LinearEquation.sci}
 
+\subsection{Solve quadratic equation}
+
+\lstinputlisting[caption={Code to solve quadratic equation},label={quadEqn}]{./scilabCode/quadEquation.sci}
 
 \section*{RESULT}
 
@@ -65,5 +81,21 @@ The solutions are x=-0.750 and y=1.625
 \end{lstlisting}
 
 
+
+For the program in listing \ref{quadEqn} and the inputs as defined in procedure 4, following will be the final result.
+\begin{lstlisting}[numbers=none]
+1st root of the equation is =   
+ 
+  - 0.4166667 + 0.5713046i  
+ 
+ 2nd root of the equation is   
+ 
+  - 0.4166667 - 0.5713046i  
+ 
+ The roots found using built in roots() function:   
+ 
+  - 0.4166667 + 0.5713046i  
+  - 0.4166667 - 0.5713046i
+\end{lstlisting}
 
 
