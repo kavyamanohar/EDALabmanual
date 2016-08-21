@@ -1,0 +1,69 @@
+\chapter [Solving Equations]{Solving Equations}
+
+
+\section*{AIM}
+\begin{itemize}
+\item
+To solve a linear equation in two variables accepting coefficients from the user.
+\item 
+To solve quadratic equation accespting coefficients from the user.
+
+\end{itemize}
+
+\section*{THEORY}
+\paragraph{}
+
+Linear equations can be solved using $linsolve()$ function.
+
+\paragraph{}
+
+\section*{PROCEDURE}
+
+\paragraph{}
+\begin{enumerate}
+\item
+Start Scilab on PC and Scilab console window opens. Create a new blank SciNote.
+\item
+The code for the required program is typed and saved as Scilab SCE file with an extension .sci
+\item
+The program is run using the “execute”.
+\item
+On executing the program in listing \ref{linEqn}, the following prompt appears on the Scilab console.
+
+\begin{lstlisting}[numbers=none]
+Enter the coefficients of first equation(Enter a1.x+b1.y=c1 as [a1 b1 -c1]:
+\end{lstlisting}
+
+For the equation $3x+2y=1$, input [3 2 -1] as shown below and press  `Enter'.
+\begin{lstlisting}[numbers=none]
+Enter the coefficients of first equation(Enter a1.x+b1.y=c1 as [a1 b1 -c1]:[3 2 -1] 
+\end{lstlisting}
+Enter the values of coeffiecients of second equation when prompted as
+\begin{lstlisting}[numbers=none]
+Enter the coefficients of second equation(Enter a2.x+b2.y=c2 as [a2 b2 -c2]:
+\end{lstlisting}
+For the equation $2x+4y=5$, input [2 4 -5] as shown below and press  `Enter'.
+\begin{lstlisting}[numbers=none]
+Enter the coefficients of second equation(Enter a2.x+b2.y=c2 as [a2 b2 -c2]:[2 4 -5]
+\end{lstlisting}
+\item
+The results and the errors in the program are displayed in the console window.
+\end{enumerate}
+
+\section*{SCILAB CODE}
+\subsection*{Solve Linear equations in two variables}
+
+
+\lstinputlisting[caption={Code to solve linear equation in two variables},label={linEqn}]{./scilabCode/LinearEquation.sci}
+
+
+\section*{RESULT}
+
+For the program in listing \ref{linEqn} and the inputs as defined in procedure 4, following will be the final result.
+\begin{lstlisting}[numbers=none]
+The solutions are x=-0.750 and y=1.625
+\end{lstlisting}
+
+
+
+
