@@ -3,6 +3,8 @@ Labmanual to support the lab course 'Electronic Design Automation Lab(EC233)' by
 
 This will cover experiments on Electronic Design, Numerical Computations and Hardware Desriptions
 
+Experiments on numerical computations are done using Scilab 5.1.1
+
 Building the book
 -----------------
 You need [XeTeX] (http://wiki.smc.org.in/XeTeX) to build this book. Install it
