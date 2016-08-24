@@ -1,0 +1,59 @@
+\chapter [Reading and writing a text file]{Reading and writing a text file}
+
+
+\section*{Problem Definition}
+
+The requirement is to read a set of floating point numbers from a formatted text file sort them in ascending order and write the sorted numbers into a new text file.
+
+\section*{Background details}
+\paragraph{}
+
+
+It often requires to read data from an existing file, process the data and write the result into a new file. There are various inbuilt functions to carryout file operations.
+
+\paragraph{}
+
+\section*{Let us experiment}
+
+\paragraph{}
+\begin{enumerate}
+\item
+Start Scilab on PC and Scilab console window opens. Create a new blank SciNote.
+\item
+The code for the required program is typed and saved as Scilab SCE file with an extension .sci
+\item
+The program is run using the “execute”. Make sure the formattedd text file `text.txt' resides in the same directory as that of the program.
+\item
+On executing the program in listing \ref{fileReadWrite}, the results are displayed in the console window.The result is also written to a text file `newtext.txt'.
+\end{enumerate}
+
+\section*{SCILAB CODE}
+\subsection*{Solve Linear equations in two variables}
+
+
+\lstinputlisting[caption={Code to do read and write file operations },label={fileReadWrite}]{./scilabCode/fileReadWrite.sci}
+
+\lstinputlisting[caption={text.txt(Unsorted File)}]{./scilabCode/text.txt}
+
+
+\section*{RESULT}
+
+For the program in listing \ref{fileReadWrite} following will be the final result.
+
+\begin{lstlisting}[numbers=none]
+ Scilab can read selected file
+The floating point numbers from a formated file
+ 
+    33.220001  
+    462.       
+    27.110001  
+    383.22     
+Values in assending order copyed in another text file with name newtext in same directory
+ 
+    27.110001  
+    33.220001  
+    383.22     
+    462.       
+ \end{lstlisting}
+ 
+ \lstinputlisting[caption={newtext.txt(Sorted File)}]{./scilabCode/text.txt}
