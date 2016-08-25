@@ -1,7 +1,6 @@
 //Aim:Read floating point numbers from a formated file and sort it in asending 
 //    order and save in another text file
 //Software version Scilab 5.5.2
-//OS Windows 7
 
 clear;
 clc;
