@@ -1,3 +1,4 @@
+admission 2016
 //Solving Linear equations in two variables
 //let two equations be
 //1: a1.x+b1.y=c1
